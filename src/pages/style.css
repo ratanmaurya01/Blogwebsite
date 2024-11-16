@@ -1,0 +1,20 @@
+.hide-scroll-bar {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+  
+  .hide-scroll-bar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+  }
+  
+  .hide-scroll-bar:hover::-webkit-scrollbar {
+    display: block; /* Show scrollbar on hover */
+  }
+  
+  .hide-scroll-bar:hover::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Change scrollbar thumb color on hover */
+  }
+  
+  .hide-scroll-bar:hover::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Change scrollbar track color on hover */
+  }

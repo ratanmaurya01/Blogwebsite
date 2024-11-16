@@ -1,0 +1,163 @@
+
+body {
+    background-color: #000;
+    color: #fff;
+    /* font-family: 'Cursive', sans-serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+
+  .image-container {
+    overflow: hidden; /* Hide overflow */
+    width: auto;      /* Adjust based on your layout */
+    height: 240px;   /* Set height to match your design */
+    position: relative; /* Positioning context */
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease; /* Smooth transition for the zoom */
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+  }
+  
+
+
+
+
+
+
+
+
+/*   
+  .diwali-container {
+    background-image: url('https://1.bp.blogspot.com/-fK0YDt8PcXg/XZcTqvhbt3I/AAAAAAAAMFU/x3FOMgitGosTranfvxEvv1JZ31sqsmUUQCLcBGAsYHQ/s1600/Bg.gif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  .main-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: gold;
+  }
+  
+  .name-input {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .greet-button {
+    background-color: #ffbe0b;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .greet-button:hover {
+    background-color: #f77f00;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .greeting-section {
+    margin-top: 30px;
+    animation: fadeIn 2s ease;
+  }
+  
+  .greeting-text {
+    font-size: 2rem;
+    color: #ffbe0b;
+    animation: fireworks 2s infinite;
+  }
+  
+  .greeting-message {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .input-section {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .diwali-greeting {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .decorations {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .lamp {
+    width: 50px;
+    height: 50px;
+    background-color: gold;
+    margin: 0 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px gold;
+    position: relative;
+  }
+  
+  .lamp:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 20px;
+    background-color: #ff0;
+    border-radius: 50%;
+  }
+  
+  .fireworks {
+    width: 100px;
+    height: 100px;
+    background: url('/fireworks.gif') no-repeat center center;
+    background-size: cover;
+    margin: 0 auto;
+    animation: fireworks 2s infinite;
+  }
+  
+  @keyframes fireworks {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+   */

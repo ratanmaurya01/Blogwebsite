@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    background-color: white; /* Default background */
+    color: black; /* Default text color */
+  }
+  
+  body.dark {
+    background-color: black; /* Dark mode background */
+    color: white; /* Dark mode text color */
+  }
+  
+  /* Add more styles as needed */
+  
+
+  
