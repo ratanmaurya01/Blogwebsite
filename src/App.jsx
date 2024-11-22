@@ -15,6 +15,7 @@ import Dashboard from "./auth/Dashboard";
 import Profile from "./auth/Profile";
 import Test from "./Test";
 import Game from "./pages/Game";
+import Getapi from "./pages/Getapi";
 
 
 function App() {
@@ -36,8 +37,10 @@ function App() {
                 <Route path="/Profile" element={<Profile />} />
                 <Route path="/Test" element={<Test />} />
                 <Route path="/Game" element={<Game />} />
+                <Route path="/getapi" element={<Getapi />} />
               </Routes>
             </div>
+
 
             <div className="mt-5">
               <Footer />
@@ -45,7 +48,7 @@ function App() {
           </Router>
 
           
-    
+     
       </PostProvider>
     </ThemeProvider>
   );
